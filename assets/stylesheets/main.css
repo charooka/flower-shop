@@ -53,7 +53,10 @@ table {
   Custom styles
   ========================================
 */
-
+body {
+	box-sizing: border-box;
+	font: 14px Helvetica, sans-serif;
+}
 
 /*
   ========================================
@@ -128,8 +131,10 @@ table {
   =========================================
 */
 
-h1, h2, h3 {
-
+h2 {
+	color: #f7882f;
+	font: 120px/1.5 "Great Vibes", Helvetica, serif;
+	text-shadow: 2px 2px 2px #3a4660;
 }
 
 /*
@@ -139,7 +144,24 @@ h1, h2, h3 {
 */
 
 .btn {
+	background: #f7882f;
+	background: -webkit-linear-gradient(#f7882f, #e76c08);
+	background:    -moz-linear-gradient(#f7882f, #e76c08);
+  	background:         linear-gradient(#f7882f, #e76c08);
+  	border: 0;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px;
+	color: #000;
+	display: inline-block;
+	font-style: normal;
+	margin-top: 35px;
+	padding: 11px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
+.btn:hover {
+	background: #BA55D3
 }
 
 /*
@@ -149,11 +171,14 @@ h1, h2, h3 {
 */
 
 nav {
+	line-height: 20px;
 	text-align: right;
+	text-transform: uppercase;
 }
 
 nav li {
-	display: inline;
+	display: inline-block;
+	padding: 0 5px;
 }
 
 /*
@@ -162,7 +187,21 @@ nav li {
   ========================================
 */
 
+header {
+	background: -webkit-linear-gradient(#203A43, #000);
+	background:    -moz-linear-gradient(#203A43, #000);
+  	background:         linear-gradient(#203A43, #000);
+	height: 40px;
+	padding: 10px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .logo {
+	font: italic 20px/20px Helvetica, serif;
 	float: left;
 }
 
@@ -174,10 +213,16 @@ nav li {
 */
 
 .landing {
-	background-image: url("../images/arts-and-crafts-bloom.jpg");
-	background-position: 0 -120px;
+	background: #fff url("../images/arts-and-crafts-bloom.jpg") 0 -120px no-repeat;
 	background-size: cover;
-	color: #fff;
 	height: 700px;
 	text-align: center;
+}
+
+.landing div {
+	font-size: 22px;
+	font-style: italic;
+	position: relative;
+	top: 300px;
+	left: 30px;
 }
