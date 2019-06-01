@@ -137,6 +137,15 @@ h2 {
 	text-shadow: 2px 2px 2px #3a4660;
 }
 
+h3 {
+	font: 22px/1.5 Helvetica, sans-serif;
+}
+
+h4 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
 /*
   =========================================
   Buttons
@@ -161,7 +170,7 @@ h2 {
 }
 
 .btn:hover {
-	background: #D18DE2;
+	background: #d18de2;
 }
 
 /*
@@ -213,7 +222,7 @@ header a {
 */
 
 .landing {
-	background: #fff url("../images/arts-and-crafts-bloom.jpg") 0 -120px no-repeat;
+	background: #fff url("../images/arts-and-crafts-bloom-cropped.jpg") 0 -120px no-repeat;
 	background-size: cover;
 	height: 700px;
 	text-align: center;
@@ -224,5 +233,71 @@ header a {
 	font-style: italic;
 	position: relative;
 	top: 300px;
-	left: 30px;
 }
+
+/*
+  ==========================================
+  Product Showcase
+  ==========================================
+*/
+
+.col-1-4 {
+	border-radius: 10px 0;
+	box-shadow: 0 0 8px #888;
+	color: #000;
+	display: inline-block;
+	margin: -60px 10px 0;
+	padding: 20px;
+	text-align: center;
+	width: 22.5%;
+	vertical-align: top;
+}
+
+.col-1-4 a {
+	color: #000;
+	text-decoration: none;
+}
+
+.col-1-4 img {
+	width: 40px;
+}
+
+.icon-wrapper {
+	background-color: #fff;
+	border-radius: 50%;
+	height: 60px;
+	margin: 0 auto 20px;
+	padding: 10px;
+	width: 60px;
+}
+
+.showcase {
+	margin: auto;
+}
+
+.showcase li {
+	display: inline-block;
+}
+
+#wedding {
+	background-color: #99a6b2;
+}
+
+#birthday {
+	background-color: #d18de2;
+}
+
+#anniversary {
+	background-color: #e7c17e;
+}
+
+#get-well {
+	background-color: #00a591;
+}
+
+/*
+  ======================================
+  Service Highlights
+  ======================================
+*/
+
